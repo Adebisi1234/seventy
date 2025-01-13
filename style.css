@@ -80,4 +80,7 @@ strong {
 
 .bold {
   min-width: max-content;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
 }
