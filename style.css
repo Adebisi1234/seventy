@@ -24,14 +24,16 @@ body {
   position: absolute;
   left: 0;
   top: calc(50% - 35%);
+  opacity: 0.4;
 }
 
 .blue {
-  background-color: rgba(0, 0, 255, 0.4);
+  background-color: rgba(0, 0, 255, 1);
   rotate: 359deg;
+  top: 1.6rem;
 }
 .purple {
-  background-color: rgba(128, 0, 128, 0.4);
+  background-color: rgba(128, 0, 128, 0.7);
   border-radius: 16px;
   outline: 4px solid white;
   outline-offset: -10px;
@@ -42,13 +44,16 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  opacity: 1;
 }
 .purple * {
   z-index: 9999;
+  opacity: 1;
 }
 .brown {
-  background-color: rgba(165, 42, 42, 0.4);
+  background-color: rgba(165, 42, 42, 1);
   rotate: 1deg;
+  top: 1.6rem;
 }
 .bar {
   width: 100%;
